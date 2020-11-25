@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "movie":"/components/movie/index"
+  },
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor":"#900",
+  "navigationBarTextStyle":"white",
+  "enablePullDownRefresh": true
+}

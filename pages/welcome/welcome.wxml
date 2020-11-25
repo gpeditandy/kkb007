@@ -1,0 +1,8 @@
+<view>
+  <view class="container">
+    <image class="user-header" src="/images/avatar/1.png"></image>
+    <!-- <l-avatar text="月野君" size="180" placement="bottom" src="/images/avatar/2.png" /> -->
+    <text class="user-name">微信小程序</text>
+    <view class="user-btn" bindtap="onTap">确定</view>
+  </view>
+</view>

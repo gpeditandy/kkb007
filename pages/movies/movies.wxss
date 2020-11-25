@@ -1,0 +1,25 @@
+.movie-list{
+  margin-bottom: 40rpx;
+}
+page{
+  background:#f2f2f2;
+  /* background:teal; */
+}
+.ex-search-height{
+  height:90rpx !important;
+}
+.result{
+  padding:30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.result::after{
+  content:'';
+  width:200rpx;
+}
+.movie-item{
+  margin-bottom: 30rpx;
+}

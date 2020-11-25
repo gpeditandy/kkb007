@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "post":"/components/post/index"
+  },
+  "navigationBarTitleText": "内容和图片",
+  "navigationBarBackgroundColor":"#900",
+  "navigationBarTextStyle":"white"
+}

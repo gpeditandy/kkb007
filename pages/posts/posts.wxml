@@ -1,0 +1,19 @@
+<import src="posts.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+<view>
+  <swiper interval="3000" indicator-dots="{{true}}" autoplay="{{true}}" circular>
+      <swiper-item>
+        <image src="/images/bestplayers.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/lpl.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/jumpfly.png"></image>
+      </swiper-item>
+  </swiper>
+
+  <block wx:for="{{postList}}" wx:key="postId"  wx:for-item="item" wx:for-index="index">
+    <post res="{{item}}" bind:posttap="goToDetail" />
+  </block>
+</view>

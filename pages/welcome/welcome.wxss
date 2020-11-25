@@ -1,0 +1,28 @@
+/* pages/welcome/welcome.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:120rpx auto;
+}
+.user-header{
+  width:200rpx;
+  height:200rpx;
+}
+.user-name{
+  margin:100rpx auto 200rpx;
+  font-size: 32rpx;
+}
+.user-btn{
+  width:200rpx;height:80rpx;
+  line-height: 80rpx;
+  border-radius: 6rpx;
+  text-align: center;
+  border:1px solid #405f80;
+  color:#405f80;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+page{
+  background-color: #b3d4db;
+}
